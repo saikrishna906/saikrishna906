@@ -9,6 +9,7 @@ public class Alterstring {
 		// TODO Auto-generated method stub
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		String str=br.readLine().toLowerCase();
+		System.out.println(str.toCharArray());
 		System.out.println(alterstring(str.toCharArray()));
 		
 
